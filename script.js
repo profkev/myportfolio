@@ -150,8 +150,8 @@ async function downloadPricingPDF() {
     // List of hero images
     const images = [
       "./images/About.avif",
-      "./images/hero2.avif",
-    //   "./images/hero3.avif",
+    //   "./images/hero2.avif",
+      "./images/hero3.avif",
     //   "./images/hero4.avif",
     ];
   
