@@ -149,10 +149,10 @@ async function downloadPricingPDF() {
   
     // List of hero images
     const images = [
-      "./images/hero1.avif",
+      "./images/About.avif",
       "./images/hero2.avif",
-      "./images/hero3.avif",
-      "./images/hero4.avif",
+    //   "./images/hero3.avif",
+    //   "./images/hero4.avif",
     ];
   
     let currentImageIndex = 0;
