@@ -166,6 +166,7 @@ async function downloadPricingPDF() {
     // Set interval to change images every 5 seconds
     setInterval(changeHeroImage, 5000);
   });
+  
   document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.getElementById("menu-toggle");
     const mobileMenu = document.getElementById("mobile-menu");
@@ -176,6 +177,4 @@ async function downloadPricingPDF() {
       mobileMenu.classList.toggle("block");
     });
   });
-  
-  
   

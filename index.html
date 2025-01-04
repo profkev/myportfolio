@@ -46,6 +46,20 @@
             opacity: 1;
         }
     }
+  #hero-section {
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    transition: background-image 1s ease-in-out; /* Smooth transition between images */
+  }
+
+  @media (max-width: 768px) {
+    #hero-section {
+      background-size: contain; /* Adjust for smaller screens to show the full image */
+    }
+  }
+
+
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
